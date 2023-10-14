@@ -1,0 +1,55 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.portfolio {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.profile-image {
+  max-width: 180px;
+  border-radius: 100%;
+  border: 0px solid #fff;
+  margin: 20px;
+  align-self: flex-start;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.profile-content {
+  margin: 20px;
+}
+
+.name {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.holopin-badge {
+  max-width: 800px;
+  margin: 20px 0;
+  /* position: absolute; */
+  top: 250px;
+  /* right: 20px; */
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  margin: 5px;
+}
